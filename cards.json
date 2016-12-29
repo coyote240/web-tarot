@@ -1,0 +1,314 @@
+[
+  {
+    "name": "One of Cups", 
+    "path": "assets/img/cups01.jpg"
+  }, 
+  {
+    "name": "Two of Cups", 
+    "path": "assets/img/cups02.jpg"
+  }, 
+  {
+    "name": "Three of Cups", 
+    "path": "assets/img/cups03.jpg"
+  }, 
+  {
+    "name": "Four of Cups", 
+    "path": "assets/img/cups04.jpg"
+  }, 
+  {
+    "name": "Five of Cups", 
+    "path": "assets/img/cups05.jpg"
+  }, 
+  {
+    "name": "Six of Cups", 
+    "path": "assets/img/cups06.jpg"
+  }, 
+  {
+    "name": "Seven of Cups", 
+    "path": "assets/img/cups07.jpg"
+  }, 
+  {
+    "name": "Eight of Cups", 
+    "path": "assets/img/cups08.jpg"
+  }, 
+  {
+    "name": "Nine of Cups", 
+    "path": "assets/img/cups09.jpg"
+  }, 
+  {
+    "name": "Ten of Cups", 
+    "path": "assets/img/cups10.jpg"
+  }, 
+  {
+    "name": "Page of Cups", 
+    "path": "assets/img/cups11.jpg"
+  }, 
+  {
+    "name": "Knight of Cups", 
+    "path": "assets/img/cups12.jpg"
+  }, 
+  {
+    "name": "Queen of Cups", 
+    "path": "assets/img/cups13.jpg"
+  }, 
+  {
+    "name": "King of Cups", 
+    "path": "assets/img/cups14.jpg"
+  }, 
+  {
+    "name": "The Fool", 
+    "path": "assets/img/maj00.jpg"
+  }, 
+  {
+    "name": "The Magician", 
+    "path": "assets/img/maj01.jpg"
+  }, 
+  {
+    "name": "The High Priestess", 
+    "path": "assets/img/maj02.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj03.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj04.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj05.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj06.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj07.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj08.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj09.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj10.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj11.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj12.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj13.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj14.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj15.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj16.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj17.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj18.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj19.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj20.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/maj21.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents01.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents02.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents03.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents04.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents05.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents06.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents07.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents08.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents09.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents10.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents11.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents12.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents13.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/pents14.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords01.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords02.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords03.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords04.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords05.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords06.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords07.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords08.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords09.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords10.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords11.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords12.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords13.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/swords14.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands01.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands02.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands03.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands04.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands05.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands06.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands07.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands08.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands09.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands10.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands11.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands12.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands13.jpg"
+  }, 
+  {
+    "name": "", 
+    "path": "assets/img/wands14.jpg"
+  }
+]
