@@ -1,4 +1,22 @@
+/*
+ * TODO:
+ * Abstract deck & layout into classes
+ * "Draw" cards, preventing duplicates
+ * Draw image into Promise
+ * Draw images in order
+ * Layout/spacing
+ * Border, background
+ * Hover events to display card name
+ * Find meanings?
+ * Animations?
+ * Add pre-scaled images
+ * Save layout?
+ * New Layouts?
+ */
+
 function loadImageJSON () {
+    'use strict';
+
     return new Promise(function (resolve, reject) {
         var cards = [];
         var req = new XMLHttpRequest();
@@ -10,6 +28,12 @@ function loadImageJSON () {
         req.open('GET', 'cards.json');
         req.send();
     });
+}
+
+class Layout {
+}
+
+class Deck {
 }
 
 window.onload = function () {

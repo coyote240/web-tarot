@@ -1,0 +1,14 @@
+{
+    "name": "web-tarot",
+    "version": "0.1",
+    "description": "Perform basic tarot layouts on the web using canvas.",
+    "author": "Adam A.G. Shamblin <zeroecks@tutanota.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/coyote240/web-tarot"
+    },
+    "jshintConfig": {
+        "esversion": 6
+    },
+    "license": "MIT"
+}
