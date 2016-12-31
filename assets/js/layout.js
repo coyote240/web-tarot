@@ -31,6 +31,88 @@ function loadImageJSON () {
 }
 
 class Layout {
+    constructor(canvas) {
+        this.canvas = canvas;
+    }
+}
+
+class CelticCross extends Layout {
+    constructor (canvas) {
+        super(canvas);
+        this.initPositions();
+    }
+
+    initPositions () {
+        var colWidth = this.canvas.width / 5,
+            rowHeight = this.canvas.height / 4,
+            columns = [];
+
+        for(var i = 1; i < 5; i++) {
+            columns.push(colWidth * i);
+        }
+
+        this._positions = [
+            {
+                x: columns[1],
+                y: rowHeight * 2,
+                name: 'present'
+            },
+            {
+                x: columns[1],
+                y: rowHeight * 2,
+                rotate: 90,
+                name: 'immediate challenge'
+            },
+            {
+                x: columns[2],
+                y: rowHeight * 2,
+                name: 'distant past'
+            },
+            {
+                x: columns[1],
+                y: rowHeight * 3,
+                name: 'recent past'
+            },
+            {
+                x: columns[1],
+                y: rowHeight,
+                name: 'best outcome'
+            },
+            {
+                x: columns[0],
+                y: this.canvas.height / 2,
+                name: 'immediate future'
+            },
+            {
+                x: columns[3],
+                y: (this.canvas.height / 5) * 4,
+                rotate: 45,
+                name: 'factors affecting situation'
+            },
+            {
+                x: columns[3],
+                y: (this.canvas.height / 5) * 3,
+                rotate: 45,
+                name: 'external influences'
+            },
+            {
+                x: columns[3],
+                y: (this.canvas.height / 5) * 2,
+                rotate: 45,
+                name: 'hopes and fears'
+            },
+            {
+                x: columns[3],
+                y: (this.canvas.height / 5),
+                rotate: 45,
+                name: 'final outcome'
+            }
+        ];
+    }
+
+    get positions () {
+        return this._positions;
+    }
 }
 
 class Deck {
@@ -44,74 +126,8 @@ window.onload = function () {
     canvas.width = window.innerWidth;
     canvas.height = canvas.width * (9/16);
 
-    var columns = (function (canvas) {
-        var columns = [];
-        var colWidth = canvas.width / 5;
-
-        for(var i = 1; i < 5; i++) {
-            columns.push(colWidth * i);
-        }
-
-        return columns;
-    })(canvas);
-
-    var positions = [
-        {
-            x: columns[1],
-            y: (canvas.height / 4) * 2,
-            name: 'present'
-        },
-        {
-            x: columns[1],
-            y: (canvas.height / 4) * 2,
-            rotate: 90,
-            name: 'immediate challenge'
-        },
-        {
-            x: columns[2],
-            y: (canvas.height / 4) * 2,
-            name: 'distant past'
-        },
-        {
-            x: columns[1],
-            y: (canvas.height / 4) * 3,
-            name: 'recent past'
-        },
-        {
-            x: columns[1],
-            y: canvas.height / 4,
-            name: 'best outcome'
-        },
-        {
-            x: columns[0],
-            y: canvas.height / 2,
-            name: 'immediate future'
-        },
-        {
-            x: columns[3],
-            y: (canvas.height / 5) * 4,
-            rotate: 45,
-            name: 'factors affecting situation'
-        },
-        {
-            x: columns[3],
-            y: (canvas.height / 5) * 3,
-            rotate: 45,
-            name: 'external influences'
-        },
-        {
-            x: columns[3],
-            y: (canvas.height / 5) * 2,
-            rotate: 45,
-            name: 'hopes and fears'
-        },
-        {
-            x: columns[3],
-            y: (canvas.height / 5),
-            rotate: 45,
-            name: 'final outcome'
-        }
-    ];
+    var layout = new CelticCross(canvas);
+    var positions = layout.positions;
 
     function initImage (path, position) {
         // Init image object
