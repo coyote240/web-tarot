@@ -1,0 +1,19 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: web-tarot-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web-tarot
+  template:
+    metadata:
+      labels:
+        app: web-tarot
+    spec:
+      containers:
+      - name: web-tarot
+        image: vexingworkshop/web-tarot:latest
+        ports:
+          - containerPort: 80
