@@ -1,0 +1,12 @@
+kind: Ingress
+apiVersion: extensions/v1beta1
+metadata:
+  name: vexing-ingress
+spec:
+  rules:
+  - host: tarot.vexingworkshop.com
+    http:
+      paths:
+      - backend:
+          serviceName: web-tarot
+          servicePort: 80
