@@ -1,4 +1,28 @@
-#layout {
-    background-image: url("../img/tile1.jpg");
-    background-size: 120px;
+body {
+  margin: 0;
+  background-color: #0e3b59;
+}
+
+header {
+  color: white;
+  position: absolute;
+  margin: 15px 15px;
+}
+
+header h1 {
+  margin: 0 0 15px;
+  font-family: sans-serif;
+}
+
+header p {
+  width: 35%;
+}
+
+footer {
+  color: white;
+  font-family: sans-serif;
+  font-size: .75rem;
+  vertical-align: baseline;
+  position: absolute;
+  bottom: 15px; left: 15px;
 }
