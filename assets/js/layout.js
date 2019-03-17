@@ -13,6 +13,11 @@
  * Save layout?
  * New Layouts?
  */
+navigator.serviceWorker.register('/worker.js', {scope: '/'}).then(reg => {
+  console.log('worker registered: ', reg);
+}).catch(error => {
+  console.log('failed to register worker: ', error);
+});
 
 class Layout {
   constructor(canvas) {
